@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مواقيت الصلاة</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <!-- city Name and Date -->
+    <header>
+        <!-- the city and date -->
+        <div class="hd">
+            <h1 id="city">اختار المدينة</h1>
+            <h4 id="date">تارخ اليوم</h4>
+        </div>
+        <!-- change city -->
+        <div class="change">
+            <select name="cities" id="cities">
+                <option value="" selected disabled>اختار مدينة</option> <!-- Default 'nothing' option -->
+                <option value="Cairo">القاهرة</option>
+                <option value="Giza">الجيزة</option>
+                <option value="Alexandria">الأسكندرية</option>
+                <option value="Menofia ">المنوفية</option>
+                <option value="Luxor">الأقصر</option>
+            </select>
+        </div>
+    </header>
+
+    </div>
+    <!-- prayer timing -->
+    <div class="container">
+        <section class="fajr">
+            <h2 class="f">الفجر</h2>
+            <h2 id="ft">00:00</h2>
+        </section>
+
+        <section class="shrouq">
+            <h2 class="sh">الشروق</h2>
+            <h2 id="sht">00:00</h2>
+        </section>
+
+        <section class="noon">
+            <h2 class="n">الظهر</h2>
+            <h2 id="nt">00:00</h2>
+        </section>
+
+        <section class="afternoon">
+            <h2 class="a">العصر</h2>
+            <h2 id="at">00:00</h2>
+        </section>
+
+        <section class="magrib ">
+            <h2 class="m">المغرب </h2>
+            <h2 id="mt">00:00</h2>
+        </section>
+
+        <section class="esha">
+            <h2 class="e">العشاء </h2>
+            <h2 id="et">00:00</h2>
+        </section>
+    </div>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="./main.js"></script>
+
+
+
+</body>
+
+</html>
