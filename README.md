@@ -1,5 +1,5 @@
 
-# Prayer Times App 🕌
+# [Prayer Times App 🕌](https://lailamosbah.github.io/Prayer-times/)
 
 Welcome to the **Prayer Times App**, a beautiful and simple web app designed to help users easily check prayer times for cities across Egypt! Whether you’re a traveler or at home, this app ensures you stay connected to your prayers, no matter where you are. 
 
